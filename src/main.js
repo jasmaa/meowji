@@ -31,7 +31,7 @@ function convertString(node) {
   }
 
   for (const { re, url } of emojis) {
-    text = text.replaceAll(re, `<img src="${url}" style="height: 1em; user-select: none; pointer-events: none;" />`);
+    text = text.replaceAll(re, `<img src="${url}" style="height: 1em; user-select: none; pointer-events: none; vertical-align: middle;" />`);
   }
 
   const newNode = document.createElement('span');

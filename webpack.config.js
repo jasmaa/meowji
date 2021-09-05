@@ -1,5 +1,6 @@
 const path = require("path");
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const svgToMiniDataURI = require('mini-svg-data-uri');
 
 const libraryName = 'meowji';
 
@@ -15,7 +16,20 @@ module.exports = {
         test: /\.js$/,
         loader: "babel-loader",
         exclude: /(node_modules)/
-      }
+      },
+      {
+        test: /\.svg$/,
+        type: 'asset/inline',
+        use: {
+          loader: 'svgo-loader',
+        },
+        generator: {
+          dataUrl: content => {
+            content = content.toString();
+            return svgToMiniDataURI(content);
+          }
+        }
+      },
     ]
   },
   optimization: {
