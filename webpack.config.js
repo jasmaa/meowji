@@ -1,8 +1,14 @@
-const path = require("path");
+const path = require('path');
+const webpack = require('webpack');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const svgToMiniDataURI = require('mini-svg-data-uri');
 
 const libraryName = 'meowji';
+const version = require('./package.json').version;
+const banner = `
+Meowji v${version}
+Licensed under MIT (https://github.com/jasmaa/meowji/blob/master/LICENSE)
+`;
 
 module.exports = {
   entry: path.resolve(__dirname, './src/main.js'),
@@ -32,6 +38,9 @@ module.exports = {
       },
     ]
   },
+  plugins: [
+    new webpack.BannerPlugin(banner),
+  ],
   optimization: {
     minimizer: [new UglifyJsPlugin()],
   },
