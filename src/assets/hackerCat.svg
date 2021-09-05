@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.1 (c68e22c387, 2021-05-23)"
-   sodipodi:docname="cat.svg"
+   sodipodi:docname="hackerCat.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="2"
-     inkscape:cx="91.797807"
-     inkscape:cy="55.360524"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="22.111028"
+     inkscape:cy="90.555795"
      inkscape:window-width="1536"
      inkscape:window-height="801"
      inkscape:window-x="-8"
@@ -57,9 +57,16 @@
      id="layer1">
     <path
        id="path21969"
-       style="fill:#f7d671;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#3671c4;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 16.571085,3.6736585 C 8.5637309,12.287728 7.1478702,36.948696 3.6732668,48.054714 c 23.2929232,0 23.3000572,0 42.6807552,0 C 42.879416,36.948696 41.464266,12.287728 33.456914,3.6736585 l -4.280042,6.7729905 c -2.381908,-0.9855754 -5.171736,-1.0539514 -8.325746,0 z"
        sodipodi:nodetypes="ccccccc" />
+    <ellipse
+       style="fill:#f7d671;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+       id="path65774"
+       cx="25.169718"
+       cy="26.539444"
+       rx="13.850873"
+       ry="11.914658" />
     <path
        style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 6.6596411,21.623929 5.3567909,2.292792"
@@ -76,29 +83,43 @@
        style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 45.249662,28.532349 -5.81803,0.32036"
        id="path26660-5-5" />
-    <ellipse
-       style="fill:#000000;fill-opacity:0.997669;stroke:none;stroke-width:4.99937;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-       id="path28034"
-       cx="19.004335"
-       cy="22.972601"
-       rx="2"
-       ry="3" />
-    <ellipse
-       style="fill:#000000;fill-opacity:0.997669;stroke:none;stroke-width:4.99937;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-       id="path28034-1"
-       cx="30.8407"
-       cy="22.837452"
-       rx="2"
-       ry="3" />
     <path
        id="path28549"
        style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
-       d="m 25.085702,30.315542 c 10e-7,0.820316 -0.546404,1.540203 -1.336495,1.76083 -0.79009,0.220626 -1.630409,-0.112029 -2.055404,-0.81367 -0.424994,-0.70164 -0.330602,-1.600464 0.230882,-2.198508"
+       d="m 26.144036,29.257208 c 1e-6,0.820316 -0.546404,1.540203 -1.336495,1.76083 -0.79009,0.220626 -1.630409,-0.112029 -2.055404,-0.81367 -0.424994,-0.70164 -0.330602,-1.600464 0.230882,-2.198508"
        sodipodi:nodetypes="cssc" />
     <path
        id="path28549-7"
        style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
-       d="m 25.085702,30.315542 c 0,0.820316 0.546405,1.540203 1.336496,1.76083 0.79009,0.220626 1.630409,-0.112029 2.055404,-0.81367 0.424994,-0.70164 0.330602,-1.600464 -0.230882,-2.198507"
+       d="m 26.144036,29.257208 c 0,0.820316 0.546405,1.540203 1.336496,1.76083 0.79009,0.220626 1.630409,-0.112029 2.055404,-0.81367 0.424994,-0.70164 0.330602,-1.600464 -0.230882,-2.198507"
        sodipodi:nodetypes="cssc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 25.162641,36.560341 V 48.337123"
+       id="path65907" />
+    <ellipse
+       style="fill:#f7d671;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+       id="path65774-0"
+       cx="14.739385"
+       cy="42.551914"
+       rx="4.4301519"
+       ry="3.8108606" />
+    <rect
+       style="fill:#bfbfbf;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+       id="rect69604"
+       width="27.796885"
+       height="2.9594944"
+       x="11.677149"
+       y="45.095219" />
+    <path
+       id="rect68297"
+       style="fill:#bfbfbf;stroke:#000000;stroke-width:3.22384;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+       d="m 19.066713,32.409915 h 28.34564 L 44.76652,48.054712 H 16.42088 Z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       id="path1193"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:42.8561;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+       d="M 103.12109 75.083984 A 24.835734 24.835734 0 0 0 103.12109 75.089844 L 97.144531 75.089844 L 88.152344 75.089844 L 72.310547 75.089844 L 47.474609 75.089844 A 24.835734 24.835734 0 0 0 59.892578 96.597656 A 24.835734 24.835734 0 0 0 84.728516 96.597656 A 24.835734 24.835734 0 0 0 94.748047 85.710938 L 105.51953 85.710938 A 24.835734 24.835734 0 0 0 115.53906 96.591797 A 24.835734 24.835734 0 0 0 140.375 96.591797 A 24.835734 24.835734 0 0 0 152.79102 75.083984 L 127.95703 75.083984 L 103.12109 75.083984 z "
+       transform="scale(0.26458333)" />
   </g>
 </svg>
