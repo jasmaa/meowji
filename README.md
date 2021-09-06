@@ -1,4 +1,4 @@
-# Meowji
+# Meowji <img src="./src/assets/astroCat.svg" style="height: 1em; user-select: none; pointer-events: none; vertical-align: middle;" /> 
 
 Non-standard cat emojis.
 
