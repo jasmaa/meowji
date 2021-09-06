@@ -6,14 +6,13 @@ import { emojis } from './emojis';
  * @param {Node} node 
  */
 function convertNode(node) {
-  const { childNodes } = node;
-  for (let i = 0; i < childNodes.length; i++) {
-    if (childNodes[i].nodeType === Node.TEXT_NODE) {
-      convertString(childNodes[i]);
+  node.childNodes.forEach(childNode => {
+    if (childNode.nodeType === Node.TEXT_NODE) {
+      convertString(childNode);
     } else {
-      convertNode(childNodes[i]);
+      convertNode(childNode);
     }
-  }
+  });
 }
 
 /**
@@ -27,7 +26,7 @@ function convertString(node) {
 
   // Ignore if text is empty
   if (text.trim().length === 0) {
-    return text;
+    return;
   }
 
   for (const { re, url } of emojis) {
