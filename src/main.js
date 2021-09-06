@@ -5,7 +5,11 @@ import { emojis } from './emojis';
  * 
  * @param {Node} node 
  */
-function convertNode(node) {
+export function convertNode(node) {
+  if (node.childNodes.length === 0 && node.nodeType === Node.TEXT_NODE) {
+    convertString(node);
+  }
+
   node.childNodes.forEach(childNode => {
     if (childNode.nodeType === Node.TEXT_NODE) {
       convertString(childNode);
@@ -36,11 +40,4 @@ function convertString(node) {
   const newNode = document.createElement('span');
   newNode.innerHTML = text;
   node.replaceWith(newNode);
-}
-
-// Start conversion from body on load.
-window.onload = () => {
-  if (document.body) {
-    convertNode(document.body);
-  }
 }
