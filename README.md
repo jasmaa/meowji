@@ -6,7 +6,7 @@ Non-standard cat emojis.
 
 ## Getting Started
 
-Meowji can be added to your site by downlading and including `meowji.min.js` from the latest release:
+Meowji can be added to your site by downloading and including `meowji.min.js` from the latest release:
 
 ```
 <script src="./PATH/TO/meowji.min.js"></script>
