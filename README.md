@@ -1,5 +1,7 @@
 # Meowji
 
+[![NPM package](https://img.shields.io/npm/v/meowji)](https://www.npmjs.com/package/meowji)
+
 Non-standard cat emojis.
 
 ## Getting Started
