@@ -1,6 +1,7 @@
 {
   "name": "meowji",
-  "version": "2.0.0",
+  "main": "index.js",
+  "version": "2.1.0",
   "license": "MIT",
   "scripts": {
     "build": "webpack",

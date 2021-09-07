@@ -1,10 +1,10 @@
-# Meowji <img src="./src/assets/astroCat.svg" style="height: 1em; user-select: none; pointer-events: none; vertical-align: middle;" /> 
+# Meowji
 
 Non-standard cat emojis.
 
 ## Getting Started
 
-Meowji can be added to your site by including `meowji.min.js`:
+Meowji can be added to your site by downlading and including `meowji.min.js` from the latest release:
 
 ```
 <script src="./PATH/TO/meowji.min.js"></script>
@@ -14,6 +14,18 @@ Meowji can be added to your site by including `meowji.min.js`:
     meowji.convertNode(document.body);
   };
 </script>
+```
+
+Meowji can also be installed via NPM:
+
+```
+npm install meowji
+```
+
+...or Yarn:
+
+```
+yarn add meowji
 ```
 
 ## Development
