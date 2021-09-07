@@ -4,7 +4,7 @@
   "version": "2.1.1",
   "license": "MIT",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack --mode=production",
     "clean": "rimraf ./dist"
   },
   "devDependencies": {

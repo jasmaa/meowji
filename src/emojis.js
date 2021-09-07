@@ -5,6 +5,9 @@ import dinoCat from './assets/dinoCat.svg';
 import hackerCat from './assets/hackerCat.svg';
 import stuntCat from './assets/stuntCat.svg';
 import attorneyCat from './assets/attorneyCat.svg';
+import shippingCat from './assets/shippingCat.svg';
+import officeCat from './assets/officeCat.svg';
+import maskCat from './assets/maskCat.svg';
 
 export const emojis = [
   {
@@ -34,6 +37,18 @@ export const emojis = [
   {
     codepoints: [0x1F431, 0x200D, 0x2696],
     url: attorneyCat,
+  },
+  {
+    codepoints: [0x1F431, 0x200D, 0x1F4E6],
+    url: shippingCat,
+  },
+  {
+    codepoints: [0x1F431, 0x200D, 0x1F4BC],
+    url: officeCat,
+  },
+  {
+    codepoints: [0x1F431, 0x200D, 0x1F637],
+    url: maskCat,
   },
 ].map(data => {
   const { codepoints } = data;
