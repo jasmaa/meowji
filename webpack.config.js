@@ -1,6 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const TerserPlugin = require("terser-webpack-plugin");
 const svgToMiniDataURI = require('mini-svg-data-uri');
 
 const libraryName = 'meowji';
@@ -44,6 +44,6 @@ module.exports = {
     new webpack.BannerPlugin(banner),
   ],
   optimization: {
-    minimizer: [new UglifyJsPlugin()],
+    minimizer: [new TerserPlugin()],
   },
 }
