@@ -1,0 +1,6 @@
+.github
+test
+dist
+docs
+*.tgz
+examples
