@@ -6,9 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
-- Add Shipping Cat
-- Add Office Cat
-- Add Mask Cat
+- Add Shipping Cat, Office Cat, Mask Cat
+- Add TS support
 
 ### Changed
 - Change node release to use source instead of bundle

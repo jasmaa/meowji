@@ -1,0 +1,1 @@
+export function convertNode(node: Node): void;

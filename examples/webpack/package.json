@@ -1,4 +1,6 @@
 {
+  "name": "meowji-example-webpack",
+  "private": "true",
   "scripts": {
     "start": "webpack serve --mode=development",
     "build": "webpack"
