@@ -17,7 +17,7 @@ jobs:
           node-version: "20"
       - run: yarn install --immutable --immutable-cache --check-cache
       - run: yarn build
-      - run: cp docs/meowji.min.js dist/meowji.min.js
+      - run: cp dist/meowji.min.js docs/meowji.min.js
       - name: Deploy example
         uses: JamesIves/github-pages-deploy-action@v4
         with:
