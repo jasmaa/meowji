@@ -1,8 +1,8 @@
 {
   "name": "meowji",
-  "main": "index.js",
   "version": "2.1.1",
   "license": "MIT",
+  "main": "src/main.js",
   "scripts": {
     "build": "webpack --mode=production",
     "clean": "rimraf ./dist"

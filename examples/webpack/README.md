@@ -8,5 +8,5 @@ Run development server with:
 
 ```
 yarn install
-yarn serve
+yarn start
 ```
