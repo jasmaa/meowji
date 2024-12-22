@@ -1,5 +1,6 @@
 # Meowji
 
+[![Build](https://img.shields.io/github/actions/workflow/status/jasmaa/meowji/test.yml)](https://github.com/jasmaa/meowji/actions/workflows/test.yml)
 [![NPM package](https://img.shields.io/npm/v/meowji)](https://www.npmjs.com/package/meowji)
 
 Non-standard cat emojis.
@@ -8,7 +9,7 @@ Non-standard cat emojis.
 
 Meowji can be added to your site by downloading and including `meowji.min.js` from the latest release:
 
-```
+```js
 <script src="./PATH/TO/meowji.min.js"></script>
 ...
 <script>
