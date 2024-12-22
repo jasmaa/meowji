@@ -3,6 +3,10 @@
   "version": "3.0.2",
   "license": "MIT",
   "main": "src/main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasmaa/meowji.git"
+  },
   "scripts": {
     "build": "webpack --mode=production",
     "clean": "rimraf ./dist",
