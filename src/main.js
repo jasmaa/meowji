@@ -7,12 +7,12 @@ import { emojis } from './emojis';
  */
 export function convertNode(node) {
   if (node.childNodes.length === 0 && node.nodeType === Node.TEXT_NODE) {
-    convertString(node);
+    convertTextNode(node);
   }
 
   node.childNodes.forEach(childNode => {
     if (childNode.nodeType === Node.TEXT_NODE) {
-      convertString(childNode);
+      convertTextNode(childNode);
     } else {
       convertNode(childNode);
     }
@@ -25,7 +25,7 @@ export function convertNode(node) {
  * @param {Node} node 
  * @returns 
  */
-function convertString(node) {
+function convertTextNode(node) {
   let text = node.nodeValue;
 
   // Ignore if text is empty
@@ -33,11 +33,17 @@ function convertString(node) {
     return;
   }
 
+  let isReplaced = false;
   for (const { re, url } of emojis) {
-    text = text.replaceAll(re, `<img src="${url}" style="height: 1em; user-select: none; pointer-events: none; vertical-align: middle;" />`);
+    if (re.test(text)) {
+      text = text.replaceAll(re, `<img src="${url}" style="height: 1em; user-select: none; pointer-events: none; vertical-align: middle;" />`);
+      isReplaced = true;
+    }
   }
 
-  const newNode = document.createElement('span');
-  newNode.innerHTML = text;
-  node.replaceWith(newNode);
+  if (isReplaced) {
+    const newNode = document.createElement('span');
+    newNode.innerHTML = text;
+    node.replaceWith(newNode);
+  }
 }
