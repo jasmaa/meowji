@@ -1,7 +1,7 @@
 # Meowji
 
-[![Build](https://img.shields.io/github/actions/workflow/status/jasmaa/meowji/test.yml)](https://github.com/jasmaa/meowji/actions/workflows/test.yml)
 [![NPM package](https://img.shields.io/npm/v/meowji)](https://www.npmjs.com/package/meowji)
+[![Build](https://img.shields.io/github/actions/workflow/status/jasmaa/meowji/test.yml)](https://github.com/jasmaa/meowji/actions/workflows/test.yml)
 
 Non-standard cat emojis.
 
