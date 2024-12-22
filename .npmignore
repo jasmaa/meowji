@@ -1,6 +1,6 @@
 .github
 test
 dist
-docs/showcase
+docs
 *.tgz
 examples
