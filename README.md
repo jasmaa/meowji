@@ -5,6 +5,8 @@
 
 Non-standard cat emojis.
 
+![Screenshot of Meowji cats. There is a heading with the text "Meowji" and subtitle with the text "Non-standard cat emojis".](./docs/screenshot_01.png)
+
 ## Getting Started
 
 Meowji can be added to your site by downloading and including `meowji.min.js` from the latest release:
