@@ -3,4 +3,4 @@ test
 dist
 docs
 *.tgz
-examples
+coverage
